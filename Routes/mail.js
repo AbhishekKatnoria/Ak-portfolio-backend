@@ -20,7 +20,7 @@ router.post("/send", async (req, res) => {
   }
 
   const mailOptions = {
-    from: process.env.EMAIL_USER,
+    from: email,
     to: process.env.EMAIL_USER,
     subject: `[Portfolio Inquiry] ${subject}`,
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // fallback
