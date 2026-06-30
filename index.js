@@ -9,7 +9,7 @@ const aiRoute = require("./Routes/ai");
 
 // ✅ Middleware
 const allowedOrigins = [
-  'https://project-777mo.vercel.app/',
+  "https://ak-portfolio-lilac.vercel.app",
   'http://localhost:5173',
   'http://localhost:3000'
 ];
